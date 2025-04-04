@@ -1,0 +1,1391 @@
+[
+  {
+    "doc_id": "invoice-001",
+    "doc_type": "invoice",
+    "modality": "image",
+    "source_path": "images/invoice-001.jpg",
+    "text": "Acme Logistics\nINVOICE\nInvoice #: INV-13278\nDate: 2026-04-08\nDescription Qty Unit Price Line Total\nLED Panel Light 2 $44.44 $88.88\nIndustrial Fasteners (box) 1 $5.45 $5.45\nSoftware License - Annual 4 $193.06 $772.24\nSubtotal: $866.57\nTax (8.25%): $71.49\nTotal: $938.06",
+    "fields": {
+      "vendor": "Acme Logistics",
+      "invoice_number": "INV-13278",
+      "date": "2026-04-08",
+      "subtotal": 866.57,
+      "tax": 71.49,
+      "total": 938.06,
+      "line_items": [
+        {
+          "description": "LED Panel Light",
+          "qty": 2,
+          "unit_price": 44.44,
+          "line_total": 88.88
+        },
+        {
+          "description": "Industrial Fasteners (box)",
+          "qty": 1,
+          "unit_price": 5.45,
+          "line_total": 5.45
+        },
+        {
+          "description": "Software License - Annual",
+          "qty": 4,
+          "unit_price": 193.06,
+          "line_total": 772.24
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "invoice-002",
+    "doc_type": "invoice",
+    "modality": "image",
+    "source_path": "images/invoice-002.jpg",
+    "text": "Fairview Consulting Group\nINVOICE\nInvoice #: INV-87236\nDate: 2026-01-25\nDescription Qty Unit Price Line Total\nLED Panel Light 5 $27.91 $139.55\nSafety Gloves (pair) 6 $3.92 $23.52\nNetwork Switch 24-port 7 $53.54 $374.78\nSubtotal: $537.85\nTax (8.25%): $44.37\nTotal: $582.22",
+    "fields": {
+      "vendor": "Fairview Consulting Group",
+      "invoice_number": "INV-87236",
+      "date": "2026-01-25",
+      "subtotal": 537.85,
+      "tax": 44.37,
+      "total": 582.22,
+      "line_items": [
+        {
+          "description": "LED Panel Light",
+          "qty": 5,
+          "unit_price": 27.91,
+          "line_total": 139.55
+        },
+        {
+          "description": "Safety Gloves (pair)",
+          "qty": 6,
+          "unit_price": 3.92,
+          "line_total": 23.52
+        },
+        {
+          "description": "Network Switch 24-port",
+          "qty": 7,
+          "unit_price": 53.54,
+          "line_total": 374.78
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "invoice-003",
+    "doc_type": "invoice",
+    "modality": "image",
+    "source_path": "images/invoice-003.jpg",
+    "text": "Redstone Manufacturing\nINVOICE\nInvoice #: INV-26361\nDate: 2026-02-18\nDescription Qty Unit Price Line Total\nPacking Tape (case) 2 $4.46 $8.92\nWarehouse Labor (hrs) 4 $31.14 $124.56\nNetwork Switch 24-port 2 $159.74 $319.48\nConsulting Hours 2 $103.51 $207.02\nSubtotal: $659.98\nTax (8.25%): $54.45\nTotal: $714.43",
+    "fields": {
+      "vendor": "Redstone Manufacturing",
+      "invoice_number": "INV-26361",
+      "date": "2026-02-18",
+      "subtotal": 659.98,
+      "tax": 54.45,
+      "total": 714.43,
+      "line_items": [
+        {
+          "description": "Packing Tape (case)",
+          "qty": 2,
+          "unit_price": 4.46,
+          "line_total": 8.92
+        },
+        {
+          "description": "Warehouse Labor (hrs)",
+          "qty": 4,
+          "unit_price": 31.14,
+          "line_total": 124.56
+        },
+        {
+          "description": "Network Switch 24-port",
+          "qty": 2,
+          "unit_price": 159.74,
+          "line_total": 319.48
+        },
+        {
+          "description": "Consulting Hours",
+          "qty": 2,
+          "unit_price": 103.51,
+          "line_total": 207.02
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "invoice-004",
+    "doc_type": "invoice",
+    "modality": "image",
+    "source_path": "images/invoice-004.jpg",
+    "text": "Harbor Point Freight\nINVOICE\nInvoice #: INV-37460\nDate: 2026-02-20\nDescription Qty Unit Price Line Total\nSoftware License - Annual 8 $251.78 $2014.24\nConsulting Hours 4 $126.35 $505.40\nShipping Pallet 1 $11.89 $11.89\nSubtotal: $2531.53\nTax (8.25%): $208.85\nTotal: $2740.38",
+    "fields": {
+      "vendor": "Harbor Point Freight",
+      "invoice_number": "INV-37460",
+      "date": "2026-02-20",
+      "subtotal": 2531.53,
+      "tax": 208.85,
+      "total": 2740.38,
+      "line_items": [
+        {
+          "description": "Software License - Annual",
+          "qty": 8,
+          "unit_price": 251.78,
+          "line_total": 2014.24
+        },
+        {
+          "description": "Consulting Hours",
+          "qty": 4,
+          "unit_price": 126.35,
+          "line_total": 505.4
+        },
+        {
+          "description": "Shipping Pallet",
+          "qty": 1,
+          "unit_price": 11.89,
+          "line_total": 11.89
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "invoice-005",
+    "doc_type": "invoice",
+    "modality": "image",
+    "source_path": "images/invoice-005.jpg",
+    "text": "Cascade Industrial\nINVOICE\nInvoice #: INV-84341\nDate: 2026-04-21\nDescription Qty Unit Price Line Total\nSafety Gloves (pair) 3 $5.22 $15.66\nPacking Tape (case) 5 $11.47 $57.35\nSteel Bracket 7 $13.67 $95.69\nShipping Pallet 7 $14.15 $99.05\nOffice Chair 3 $141.52 $424.56\nSubtotal: $692.31\nTax (8.25%): $57.12\nTotal: $749.43",
+    "fields": {
+      "vendor": "Cascade Industrial",
+      "invoice_number": "INV-84341",
+      "date": "2026-04-21",
+      "subtotal": 692.31,
+      "tax": 57.12,
+      "total": 749.43,
+      "line_items": [
+        {
+          "description": "Safety Gloves (pair)",
+          "qty": 3,
+          "unit_price": 5.22,
+          "line_total": 15.66
+        },
+        {
+          "description": "Packing Tape (case)",
+          "qty": 5,
+          "unit_price": 11.47,
+          "line_total": 57.35
+        },
+        {
+          "description": "Steel Bracket",
+          "qty": 7,
+          "unit_price": 13.67,
+          "line_total": 95.69
+        },
+        {
+          "description": "Shipping Pallet",
+          "qty": 7,
+          "unit_price": 14.15,
+          "line_total": 99.05
+        },
+        {
+          "description": "Office Chair",
+          "qty": 3,
+          "unit_price": 141.52,
+          "line_total": 424.56
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "invoice-006",
+    "doc_type": "invoice",
+    "modality": "image",
+    "source_path": "images/invoice-006.jpg",
+    "text": "Blue Ridge Supplies\nINVOICE\nInvoice #: INV-99192\nDate: 2026-02-13\nDescription Qty Unit Price Line Total\nWarehouse Labor (hrs) 2 $29.59 $59.18\nSteel Bracket 5 $11.99 $59.95\nSoftware License - Annual 6 $144.62 $867.72\nOffice Chair 7 $85.31 $597.17\nWidget Assembly Kit 1 $43.48 $43.48\nSubtotal: $1627.50\nTax (8.25%): $134.27\nTotal: $1761.77",
+    "fields": {
+      "vendor": "Blue Ridge Supplies",
+      "invoice_number": "INV-99192",
+      "date": "2026-02-13",
+      "subtotal": 1627.5,
+      "tax": 134.27,
+      "total": 1761.77,
+      "line_items": [
+        {
+          "description": "Warehouse Labor (hrs)",
+          "qty": 2,
+          "unit_price": 29.59,
+          "line_total": 59.18
+        },
+        {
+          "description": "Steel Bracket",
+          "qty": 5,
+          "unit_price": 11.99,
+          "line_total": 59.95
+        },
+        {
+          "description": "Software License - Annual",
+          "qty": 6,
+          "unit_price": 144.62,
+          "line_total": 867.72
+        },
+        {
+          "description": "Office Chair",
+          "qty": 7,
+          "unit_price": 85.31,
+          "line_total": 597.17
+        },
+        {
+          "description": "Widget Assembly Kit",
+          "qty": 1,
+          "unit_price": 43.48,
+          "line_total": 43.48
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "invoice-007",
+    "doc_type": "invoice",
+    "modality": "image",
+    "source_path": "images/invoice-007.jpg",
+    "text": "Acme Logistics\nINVOICE\nInvoice #: INV-91959\nDate: 2026-09-20\nDescription Qty Unit Price Line Total\nShipping Pallet 1 $18.18 $18.18\nNetwork Switch 24-port 8 $42.73 $341.84\nLED Panel Light 6 $55.39 $332.34\nSubtotal: $692.36\nTax (8.25%): $57.12\nTotal: $749.48",
+    "fields": {
+      "vendor": "Acme Logistics",
+      "invoice_number": "INV-91959",
+      "date": "2026-09-20",
+      "subtotal": 692.36,
+      "tax": 57.12,
+      "total": 749.48,
+      "line_items": [
+        {
+          "description": "Shipping Pallet",
+          "qty": 1,
+          "unit_price": 18.18,
+          "line_total": 18.18
+        },
+        {
+          "description": "Network Switch 24-port",
+          "qty": 8,
+          "unit_price": 42.73,
+          "line_total": 341.84
+        },
+        {
+          "description": "LED Panel Light",
+          "qty": 6,
+          "unit_price": 55.39,
+          "line_total": 332.34
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "invoice-008",
+    "doc_type": "invoice",
+    "modality": "image",
+    "source_path": "images/invoice-008.jpg",
+    "text": "Pioneer Electrical Supply\nINVOICE\nInvoice #: INV-20322\nDate: 2025-12-16\nDescription Qty Unit Price Line Total\nSoftware License - Annual 3 $363.90 $1091.70\nShipping Pallet 3 $12.51 $37.53\nSubtotal: $1129.23\nTax (8.25%): $93.16\nTotal: $1222.39",
+    "fields": {
+      "vendor": "Pioneer Electrical Supply",
+      "invoice_number": "INV-20322",
+      "date": "2025-12-16",
+      "subtotal": 1129.23,
+      "tax": 93.16,
+      "total": 1222.39,
+      "line_items": [
+        {
+          "description": "Software License - Annual",
+          "qty": 3,
+          "unit_price": 363.9,
+          "line_total": 1091.7
+        },
+        {
+          "description": "Shipping Pallet",
+          "qty": 3,
+          "unit_price": 12.51,
+          "line_total": 37.53
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "invoice-009",
+    "doc_type": "invoice",
+    "modality": "image",
+    "source_path": "images/invoice-009.jpg",
+    "text": "Summit Office Co\nINVOICE\nInvoice #: INV-62296\nDate: 2026-08-17\nDescription Qty Unit Price Line Total\nIndustrial Fasteners (box) 1 $13.82 $13.82\nConsulting Hours 4 $119.13 $476.52\nPacking Tape (case) 1 $4.71 $4.71\nLED Panel Light 1 $30.70 $30.70\nNetwork Switch 24-port 1 $160.35 $160.35\nSubtotal: $686.10\nTax (8.25%): $56.60\nTotal: $742.70",
+    "fields": {
+      "vendor": "Summit Office Co",
+      "invoice_number": "INV-62296",
+      "date": "2026-08-17",
+      "subtotal": 686.1,
+      "tax": 56.6,
+      "total": 742.7,
+      "line_items": [
+        {
+          "description": "Industrial Fasteners (box)",
+          "qty": 1,
+          "unit_price": 13.82,
+          "line_total": 13.82
+        },
+        {
+          "description": "Consulting Hours",
+          "qty": 4,
+          "unit_price": 119.13,
+          "line_total": 476.52
+        },
+        {
+          "description": "Packing Tape (case)",
+          "qty": 1,
+          "unit_price": 4.71,
+          "line_total": 4.71
+        },
+        {
+          "description": "LED Panel Light",
+          "qty": 1,
+          "unit_price": 30.7,
+          "line_total": 30.7
+        },
+        {
+          "description": "Network Switch 24-port",
+          "qty": 1,
+          "unit_price": 160.35,
+          "line_total": 160.35
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "invoice-010",
+    "doc_type": "invoice",
+    "modality": "image",
+    "source_path": "images/invoice-010.jpg",
+    "text": "Redstone Manufacturing\nINVOICE\nInvoice #: INV-27342\nDate: 2026-04-26\nDescription Qty Unit Price Line Total\nSafety Gloves (pair) 6 $6.81 $40.86\nConsulting Hours 8 $139.79 $1118.32\nIndustrial Fasteners (box) 1 $15.10 $15.10\nWarehouse Labor (hrs) 2 $19.03 $38.06\nLED Panel Light 6 $52.42 $314.52\nSubtotal: $1526.86\nTax (8.25%): $125.97\nTotal: $1652.83",
+    "fields": {
+      "vendor": "Redstone Manufacturing",
+      "invoice_number": "INV-27342",
+      "date": "2026-04-26",
+      "subtotal": 1526.86,
+      "tax": 125.97,
+      "total": 1652.83,
+      "line_items": [
+        {
+          "description": "Safety Gloves (pair)",
+          "qty": 6,
+          "unit_price": 6.81,
+          "line_total": 40.86
+        },
+        {
+          "description": "Consulting Hours",
+          "qty": 8,
+          "unit_price": 139.79,
+          "line_total": 1118.32
+        },
+        {
+          "description": "Industrial Fasteners (box)",
+          "qty": 1,
+          "unit_price": 15.1,
+          "line_total": 15.1
+        },
+        {
+          "description": "Warehouse Labor (hrs)",
+          "qty": 2,
+          "unit_price": 19.03,
+          "line_total": 38.06
+        },
+        {
+          "description": "LED Panel Light",
+          "qty": 6,
+          "unit_price": 52.42,
+          "line_total": 314.52
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "invoice-011",
+    "doc_type": "invoice",
+    "modality": "image",
+    "source_path": "images/invoice-011.jpg",
+    "text": "Meridian Hardware\nINVOICE\nInvoice #: INV-34050\nDate: 2026-08-08\nDescription Qty Unit Price Line Total\nSteel Bracket 2 $2.66 $5.32\nSoftware License - Annual 1 $487.60 $487.60\nSubtotal: $492.92\nTax (8.25%): $40.67\nTotal: $533.59",
+    "fields": {
+      "vendor": "Meridian Hardware",
+      "invoice_number": "INV-34050",
+      "date": "2026-08-08",
+      "subtotal": 492.92,
+      "tax": 40.67,
+      "total": 533.59,
+      "line_items": [
+        {
+          "description": "Steel Bracket",
+          "qty": 2,
+          "unit_price": 2.66,
+          "line_total": 5.32
+        },
+        {
+          "description": "Software License - Annual",
+          "qty": 1,
+          "unit_price": 487.6,
+          "line_total": 487.6
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "invoice-012",
+    "doc_type": "invoice",
+    "modality": "image",
+    "source_path": "images/invoice-012.jpg",
+    "text": "Fairview Consulting Group\nINVOICE\nInvoice #: INV-73092\nDate: 2025-07-02\nDescription Qty Unit Price Line Total\nSafety Gloves (pair) 5 $11.34 $56.70\nWidget Assembly Kit 8 $21.41 $171.28\nLED Panel Light 8 $27.88 $223.04\nSubtotal: $451.02\nTax (8.25%): $37.21\nTotal: $488.23",
+    "fields": {
+      "vendor": "Fairview Consulting Group",
+      "invoice_number": "INV-73092",
+      "date": "2025-07-02",
+      "subtotal": 451.02,
+      "tax": 37.21,
+      "total": 488.23,
+      "line_items": [
+        {
+          "description": "Safety Gloves (pair)",
+          "qty": 5,
+          "unit_price": 11.34,
+          "line_total": 56.7
+        },
+        {
+          "description": "Widget Assembly Kit",
+          "qty": 8,
+          "unit_price": 21.41,
+          "line_total": 171.28
+        },
+        {
+          "description": "LED Panel Light",
+          "qty": 8,
+          "unit_price": 27.88,
+          "line_total": 223.04
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "invoice-013",
+    "doc_type": "invoice",
+    "modality": "image",
+    "source_path": "images/invoice-013.jpg",
+    "text": "Northwind Traders\nINVOICE\nInvoice #: INV-16572\nDate: 2026-09-28\nDescription Qty Unit Price Line Total\nWidget Assembly Kit 3 $14.26 $42.78\nSoftware License - Annual 2 $370.09 $740.18\nIndustrial Fasteners (box) 4 $11.06 $44.24\nSubtotal: $827.20\nTax (8.25%): $68.24\nTotal: $895.44",
+    "fields": {
+      "vendor": "Northwind Traders",
+      "invoice_number": "INV-16572",
+      "date": "2026-09-28",
+      "subtotal": 827.2,
+      "tax": 68.24,
+      "total": 895.44,
+      "line_items": [
+        {
+          "description": "Widget Assembly Kit",
+          "qty": 3,
+          "unit_price": 14.26,
+          "line_total": 42.78
+        },
+        {
+          "description": "Software License - Annual",
+          "qty": 2,
+          "unit_price": 370.09,
+          "line_total": 740.18
+        },
+        {
+          "description": "Industrial Fasteners (box)",
+          "qty": 4,
+          "unit_price": 11.06,
+          "line_total": 44.24
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "invoice-014",
+    "doc_type": "invoice",
+    "modality": "image",
+    "source_path": "images/invoice-014.jpg",
+    "text": "Meridian Hardware\nINVOICE\nInvoice #: INV-96163\nDate: 2026-05-07\nDescription Qty Unit Price Line Total\nConsulting Hours 5 $109.29 $546.45\nOffice Chair 2 $61.49 $122.98\nSafety Gloves (pair) 2 $3.66 $7.32\nShipping Pallet 4 $16.60 $66.40\nSubtotal: $743.15\nTax (8.25%): $61.31\nTotal: $804.46",
+    "fields": {
+      "vendor": "Meridian Hardware",
+      "invoice_number": "INV-96163",
+      "date": "2026-05-07",
+      "subtotal": 743.15,
+      "tax": 61.31,
+      "total": 804.46,
+      "line_items": [
+        {
+          "description": "Consulting Hours",
+          "qty": 5,
+          "unit_price": 109.29,
+          "line_total": 546.45
+        },
+        {
+          "description": "Office Chair",
+          "qty": 2,
+          "unit_price": 61.49,
+          "line_total": 122.98
+        },
+        {
+          "description": "Safety Gloves (pair)",
+          "qty": 2,
+          "unit_price": 3.66,
+          "line_total": 7.32
+        },
+        {
+          "description": "Shipping Pallet",
+          "qty": 4,
+          "unit_price": 16.6,
+          "line_total": 66.4
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "invoice-015",
+    "doc_type": "invoice",
+    "modality": "image",
+    "source_path": "images/invoice-015.jpg",
+    "text": "Harbor Point Freight\nINVOICE\nInvoice #: INV-47353\nDate: 2025-08-27\nDescription Qty Unit Price Line Total\nWarehouse Labor (hrs) 5 $33.84 $169.20\nPacking Tape (case) 2 $13.39 $26.78\nSoftware License - Annual 3 $205.79 $617.37\nWidget Assembly Kit 2 $36.50 $73.00\nSubtotal: $886.35\nTax (8.25%): $73.12\nTotal: $959.47",
+    "fields": {
+      "vendor": "Harbor Point Freight",
+      "invoice_number": "INV-47353",
+      "date": "2025-08-27",
+      "subtotal": 886.35,
+      "tax": 73.12,
+      "total": 959.47,
+      "line_items": [
+        {
+          "description": "Warehouse Labor (hrs)",
+          "qty": 5,
+          "unit_price": 33.84,
+          "line_total": 169.2
+        },
+        {
+          "description": "Packing Tape (case)",
+          "qty": 2,
+          "unit_price": 13.39,
+          "line_total": 26.78
+        },
+        {
+          "description": "Software License - Annual",
+          "qty": 3,
+          "unit_price": 205.79,
+          "line_total": 617.37
+        },
+        {
+          "description": "Widget Assembly Kit",
+          "qty": 2,
+          "unit_price": 36.5,
+          "line_total": 73.0
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "invoice-016",
+    "doc_type": "invoice",
+    "modality": "image",
+    "source_path": "images/invoice-016.jpg",
+    "text": "Cascade Industrial\nINVOICE\nInvoice #: INV-93130\nDate: 2026-09-16\nDescription Qty Unit Price Line Total\nWidget Assembly Kit 1 $12.12 $12.12\nIndustrial Fasteners (box) 3 $14.56 $43.68\nSafety Gloves (pair) 5 $4.45 $22.25\nOffice Chair 8 $148.27 $1186.16\nSubtotal: $1264.21\nTax (8.25%): $104.30\nTotal: $1368.51",
+    "fields": {
+      "vendor": "Cascade Industrial",
+      "invoice_number": "INV-93130",
+      "date": "2026-09-16",
+      "subtotal": 1264.21,
+      "tax": 104.3,
+      "total": 1368.51,
+      "line_items": [
+        {
+          "description": "Widget Assembly Kit",
+          "qty": 1,
+          "unit_price": 12.12,
+          "line_total": 12.12
+        },
+        {
+          "description": "Industrial Fasteners (box)",
+          "qty": 3,
+          "unit_price": 14.56,
+          "line_total": 43.68
+        },
+        {
+          "description": "Safety Gloves (pair)",
+          "qty": 5,
+          "unit_price": 4.45,
+          "line_total": 22.25
+        },
+        {
+          "description": "Office Chair",
+          "qty": 8,
+          "unit_price": 148.27,
+          "line_total": 1186.16
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "receipt-001",
+    "doc_type": "receipt",
+    "modality": "image",
+    "source_path": "images/receipt-001.jpg",
+    "text": "Corner Market\nDate: 2026-09-05\nCoffee - Large $5.50\nPhone Charger Cable $13.17\nBottled Water $2.29\nSubtotal: $20.96\nTax: $1.47\nTotal: $22.43\nPayment: Credit Card",
+    "fields": {
+      "store": "Corner Market",
+      "date": "2026-09-05",
+      "subtotal": 20.96,
+      "tax": 1.47,
+      "total": 22.43,
+      "payment_method": "Credit Card",
+      "items": [
+        {
+          "item": "Coffee - Large",
+          "price": 5.5
+        },
+        {
+          "item": "Phone Charger Cable",
+          "price": 13.17
+        },
+        {
+          "item": "Bottled Water",
+          "price": 2.29
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "receipt-002",
+    "doc_type": "receipt",
+    "modality": "image",
+    "source_path": "images/receipt-002.jpg",
+    "text": "Sunrise Diner\nDate: 2026-03-08\nSandwich - Turkey Club $8.71\nCoffee - Large $4.08\nNotebook $5.72\nSubtotal: $18.51\nTax: $1.30\nTotal: $19.81\nPayment: Cash",
+    "fields": {
+      "store": "Sunrise Diner",
+      "date": "2026-03-08",
+      "subtotal": 18.51,
+      "tax": 1.3,
+      "total": 19.81,
+      "payment_method": "Cash",
+      "items": [
+        {
+          "item": "Sandwich - Turkey Club",
+          "price": 8.71
+        },
+        {
+          "item": "Coffee - Large",
+          "price": 4.08
+        },
+        {
+          "item": "Notebook",
+          "price": 5.72
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "receipt-003",
+    "doc_type": "receipt",
+    "modality": "image",
+    "source_path": "images/receipt-003.jpg",
+    "text": "QuickStop Pharmacy\nDate: 2025-07-28\nAA Batteries 4-pack $7.28\nPrinter Paper Ream $8.49\nMultivitamins $10.23\nNotebook $4.64\nSandwich - Turkey Club $7.70\nSubtotal: $38.34\nTax: $2.68\nTotal: $41.02\nPayment: Cash",
+    "fields": {
+      "store": "QuickStop Pharmacy",
+      "date": "2025-07-28",
+      "subtotal": 38.34,
+      "tax": 2.68,
+      "total": 41.02,
+      "payment_method": "Cash",
+      "items": [
+        {
+          "item": "AA Batteries 4-pack",
+          "price": 7.28
+        },
+        {
+          "item": "Printer Paper Ream",
+          "price": 8.49
+        },
+        {
+          "item": "Multivitamins",
+          "price": 10.23
+        },
+        {
+          "item": "Notebook",
+          "price": 4.64
+        },
+        {
+          "item": "Sandwich - Turkey Club",
+          "price": 7.7
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "receipt-004",
+    "doc_type": "receipt",
+    "modality": "image",
+    "source_path": "images/receipt-004.jpg",
+    "text": "Pixel Electronics\nDate: 2026-01-04\nPrinter Paper Ream $5.43\nPhone Charger Cable $9.91\nCoffee - Large $5.07\nSubtotal: $20.41\nTax: $1.43\nTotal: $21.84\nPayment: Credit Card",
+    "fields": {
+      "store": "Pixel Electronics",
+      "date": "2026-01-04",
+      "subtotal": 20.41,
+      "tax": 1.43,
+      "total": 21.84,
+      "payment_method": "Credit Card",
+      "items": [
+        {
+          "item": "Printer Paper Ream",
+          "price": 5.43
+        },
+        {
+          "item": "Phone Charger Cable",
+          "price": 9.91
+        },
+        {
+          "item": "Coffee - Large",
+          "price": 5.07
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "receipt-005",
+    "doc_type": "receipt",
+    "modality": "image",
+    "source_path": "images/receipt-005.jpg",
+    "text": "Green Leaf Grocers\nDate: 2026-01-23\nGreeting Card $4.22\nPrinter Paper Ream $8.76\nSubtotal: $12.98\nTax: $0.91\nTotal: $13.89\nPayment: Credit Card",
+    "fields": {
+      "store": "Green Leaf Grocers",
+      "date": "2026-01-23",
+      "subtotal": 12.98,
+      "tax": 0.91,
+      "total": 13.89,
+      "payment_method": "Credit Card",
+      "items": [
+        {
+          "item": "Greeting Card",
+          "price": 4.22
+        },
+        {
+          "item": "Printer Paper Ream",
+          "price": 8.76
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "receipt-006",
+    "doc_type": "receipt",
+    "modality": "image",
+    "source_path": "images/receipt-006.jpg",
+    "text": "Sunrise Diner\nDate: 2026-02-24\nSandwich - Turkey Club $7.39\nBottled Water $1.19\nPrinter Paper Ream $6.68\nGreeting Card $4.85\nSubtotal: $20.11\nTax: $1.41\nTotal: $21.52\nPayment: Credit Card",
+    "fields": {
+      "store": "Sunrise Diner",
+      "date": "2026-02-24",
+      "subtotal": 20.11,
+      "tax": 1.41,
+      "total": 21.52,
+      "payment_method": "Credit Card",
+      "items": [
+        {
+          "item": "Sandwich - Turkey Club",
+          "price": 7.39
+        },
+        {
+          "item": "Bottled Water",
+          "price": 1.19
+        },
+        {
+          "item": "Printer Paper Ream",
+          "price": 6.68
+        },
+        {
+          "item": "Greeting Card",
+          "price": 4.85
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "receipt-007",
+    "doc_type": "receipt",
+    "modality": "image",
+    "source_path": "images/receipt-007.jpg",
+    "text": "Corner Market\nDate: 2026-05-07\nMultivitamins $10.14\nPrinter Paper Ream $6.89\nGreeting Card $4.75\nBottled Water $2.19\nSubtotal: $23.97\nTax: $1.68\nTotal: $25.65\nPayment: Credit Card",
+    "fields": {
+      "store": "Corner Market",
+      "date": "2026-05-07",
+      "subtotal": 23.97,
+      "tax": 1.68,
+      "total": 25.65,
+      "payment_method": "Credit Card",
+      "items": [
+        {
+          "item": "Multivitamins",
+          "price": 10.14
+        },
+        {
+          "item": "Printer Paper Ream",
+          "price": 6.89
+        },
+        {
+          "item": "Greeting Card",
+          "price": 4.75
+        },
+        {
+          "item": "Bottled Water",
+          "price": 2.19
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "receipt-008",
+    "doc_type": "receipt",
+    "modality": "image",
+    "source_path": "images/receipt-008.jpg",
+    "text": "Green Leaf Grocers\nDate: 2026-04-26\nCoffee - Large $5.71\nPrinter Paper Ream $7.45\nAA Batteries 4-pack $7.07\nSubtotal: $20.23\nTax: $1.42\nTotal: $21.65\nPayment: Cash",
+    "fields": {
+      "store": "Green Leaf Grocers",
+      "date": "2026-04-26",
+      "subtotal": 20.23,
+      "tax": 1.42,
+      "total": 21.65,
+      "payment_method": "Cash",
+      "items": [
+        {
+          "item": "Coffee - Large",
+          "price": 5.71
+        },
+        {
+          "item": "Printer Paper Ream",
+          "price": 7.45
+        },
+        {
+          "item": "AA Batteries 4-pack",
+          "price": 7.07
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "receipt-009",
+    "doc_type": "receipt",
+    "modality": "image",
+    "source_path": "images/receipt-009.jpg",
+    "text": "Urban Cafe & Bakery\nDate: 2026-04-05\nBagel w/ Cream Cheese $2.94\nSandwich - Turkey Club $8.91\nSubtotal: $11.85\nTax: $0.83\nTotal: $12.68\nPayment: Debit Card",
+    "fields": {
+      "store": "Urban Cafe & Bakery",
+      "date": "2026-04-05",
+      "subtotal": 11.85,
+      "tax": 0.83,
+      "total": 12.68,
+      "payment_method": "Debit Card",
+      "items": [
+        {
+          "item": "Bagel w/ Cream Cheese",
+          "price": 2.94
+        },
+        {
+          "item": "Sandwich - Turkey Club",
+          "price": 8.91
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "receipt-010",
+    "doc_type": "receipt",
+    "modality": "image",
+    "source_path": "images/receipt-010.jpg",
+    "text": "Urban Cafe & Bakery\nDate: 2025-08-22\nMultivitamins $17.07\nGreeting Card $3.61\nSandwich - Turkey Club $6.98\nPrinter Paper Ream $8.45\nSubtotal: $36.11\nTax: $2.53\nTotal: $38.64\nPayment: Debit Card",
+    "fields": {
+      "store": "Urban Cafe & Bakery",
+      "date": "2025-08-22",
+      "subtotal": 36.11,
+      "tax": 2.53,
+      "total": 38.64,
+      "payment_method": "Debit Card",
+      "items": [
+        {
+          "item": "Multivitamins",
+          "price": 17.07
+        },
+        {
+          "item": "Greeting Card",
+          "price": 3.61
+        },
+        {
+          "item": "Sandwich - Turkey Club",
+          "price": 6.98
+        },
+        {
+          "item": "Printer Paper Ream",
+          "price": 8.45
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "receipt-011",
+    "doc_type": "receipt",
+    "modality": "image",
+    "source_path": "images/receipt-011.jpg",
+    "text": "Urban Cafe & Bakery\nDate: 2025-05-15\nAA Batteries 4-pack $7.57\nPhone Charger Cable $6.73\nBottled Water $1.23\nNotebook $3.53\nSubtotal: $19.06\nTax: $1.33\nTotal: $20.39\nPayment: Cash",
+    "fields": {
+      "store": "Urban Cafe & Bakery",
+      "date": "2025-05-15",
+      "subtotal": 19.06,
+      "tax": 1.33,
+      "total": 20.39,
+      "payment_method": "Cash",
+      "items": [
+        {
+          "item": "AA Batteries 4-pack",
+          "price": 7.57
+        },
+        {
+          "item": "Phone Charger Cable",
+          "price": 6.73
+        },
+        {
+          "item": "Bottled Water",
+          "price": 1.23
+        },
+        {
+          "item": "Notebook",
+          "price": 3.53
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "receipt-012",
+    "doc_type": "receipt",
+    "modality": "image",
+    "source_path": "images/receipt-012.jpg",
+    "text": "Sunrise Diner\nDate: 2026-07-02\nSandwich - Turkey Club $9.33\nCoffee - Large $4.00\nPrinter Paper Ream $6.56\nAA Batteries 4-pack $7.57\nGreeting Card $4.59\nSubtotal: $32.05\nTax: $2.24\nTotal: $34.29\nPayment: Cash",
+    "fields": {
+      "store": "Sunrise Diner",
+      "date": "2026-07-02",
+      "subtotal": 32.05,
+      "tax": 2.24,
+      "total": 34.29,
+      "payment_method": "Cash",
+      "items": [
+        {
+          "item": "Sandwich - Turkey Club",
+          "price": 9.33
+        },
+        {
+          "item": "Coffee - Large",
+          "price": 4.0
+        },
+        {
+          "item": "Printer Paper Ream",
+          "price": 6.56
+        },
+        {
+          "item": "AA Batteries 4-pack",
+          "price": 7.57
+        },
+        {
+          "item": "Greeting Card",
+          "price": 4.59
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "receipt-013",
+    "doc_type": "receipt",
+    "modality": "image",
+    "source_path": "images/receipt-013.jpg",
+    "text": "Green Leaf Grocers\nDate: 2026-07-16\nBottled Water $2.38\nSandwich - Turkey Club $9.44\nNotebook $4.14\nGreeting Card $4.77\nAA Batteries 4-pack $6.37\nSubtotal: $27.10\nTax: $1.90\nTotal: $29.00\nPayment: Cash",
+    "fields": {
+      "store": "Green Leaf Grocers",
+      "date": "2026-07-16",
+      "subtotal": 27.1,
+      "tax": 1.9,
+      "total": 29.0,
+      "payment_method": "Cash",
+      "items": [
+        {
+          "item": "Bottled Water",
+          "price": 2.38
+        },
+        {
+          "item": "Sandwich - Turkey Club",
+          "price": 9.44
+        },
+        {
+          "item": "Notebook",
+          "price": 4.14
+        },
+        {
+          "item": "Greeting Card",
+          "price": 4.77
+        },
+        {
+          "item": "AA Batteries 4-pack",
+          "price": 6.37
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "receipt-014",
+    "doc_type": "receipt",
+    "modality": "image",
+    "source_path": "images/receipt-014.jpg",
+    "text": "Urban Cafe & Bakery\nDate: 2025-01-09\nAA Batteries 4-pack $7.04\nMultivitamins $11.79\nBottled Water $2.13\nNotebook $5.33\nSubtotal: $26.29\nTax: $1.84\nTotal: $28.13\nPayment: Credit Card",
+    "fields": {
+      "store": "Urban Cafe & Bakery",
+      "date": "2025-01-09",
+      "subtotal": 26.29,
+      "tax": 1.84,
+      "total": 28.13,
+      "payment_method": "Credit Card",
+      "items": [
+        {
+          "item": "AA Batteries 4-pack",
+          "price": 7.04
+        },
+        {
+          "item": "Multivitamins",
+          "price": 11.79
+        },
+        {
+          "item": "Bottled Water",
+          "price": 2.13
+        },
+        {
+          "item": "Notebook",
+          "price": 5.33
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "report-img-001",
+    "doc_type": "report_image",
+    "modality": "image",
+    "source_path": "images/report-img-001.jpg",
+    "text": "November Vendor Onboarding Status Report\nAuthor: M. Chen\nDate: 2025-11-01\nThe Vendor Onboarding team processed 161 items in November 2025, a 27% increase compared to the prior month.\n17 items remain open and are expected to close before the next review cycle.\nReport prepared by M. Chen for the November 2025 operations review.",
+    "fields": {
+      "title": "November Vendor Onboarding Status Report",
+      "author": "M. Chen",
+      "date": "2025-11-01",
+      "department": "Vendor Onboarding"
+    }
+  },
+  {
+    "doc_id": "report-img-002",
+    "doc_type": "report_image",
+    "modality": "image",
+    "source_path": "images/report-img-002.jpg",
+    "text": "October IT Infrastructure Status Report\nAuthor: S. Patel\nDate: 2025-10-01\nThe IT Infrastructure team processed 343 items in October 2025, a 17% decrease compared to the prior month.\n25 items remain open and are expected to close before the next review cycle.\nReport prepared by S. Patel for the October 2025 operations review.",
+    "fields": {
+      "title": "October IT Infrastructure Status Report",
+      "author": "S. Patel",
+      "date": "2025-10-01",
+      "department": "IT Infrastructure"
+    }
+  },
+  {
+    "doc_id": "report-img-003",
+    "doc_type": "report_image",
+    "modality": "image",
+    "source_path": "images/report-img-003.jpg",
+    "text": "May Regional Sales Status Report\nAuthor: J. Alvarez\nDate: 2025-05-01\nThe Regional Sales team processed 709 items in May 2025, a 24% decrease compared to the prior month.\n27 items remain open and are expected to close before the next review cycle.\nReport prepared by J. Alvarez for the May 2025 operations review.",
+    "fields": {
+      "title": "May Regional Sales Status Report",
+      "author": "J. Alvarez",
+      "date": "2025-05-01",
+      "department": "Regional Sales"
+    }
+  },
+  {
+    "doc_id": "report-img-004",
+    "doc_type": "report_image",
+    "modality": "image",
+    "source_path": "images/report-img-004.jpg",
+    "text": "October Regional Sales Status Report\nAuthor: K. Brennan\nDate: 2025-10-01\nThe Regional Sales team processed 921 items in October 2025, a 4% decrease compared to the prior month.\n36 items remain open and are expected to close before the next review cycle.\nReport prepared by K. Brennan for the October 2025 operations review.",
+    "fields": {
+      "title": "October Regional Sales Status Report",
+      "author": "K. Brennan",
+      "date": "2025-10-01",
+      "department": "Regional Sales"
+    }
+  },
+  {
+    "doc_id": "report-img-005",
+    "doc_type": "report_image",
+    "modality": "image",
+    "source_path": "images/report-img-005.jpg",
+    "text": "July Quality Assurance Status Report\nAuthor: S. Patel\nDate: 2025-07-01\nThe Quality Assurance team processed 490 items in July 2025, a 23% decrease compared to the prior month.\n11 items remain open and are expected to close before the next review cycle.\nReport prepared by S. Patel for the July 2025 operations review.",
+    "fields": {
+      "title": "July Quality Assurance Status Report",
+      "author": "S. Patel",
+      "date": "2025-07-01",
+      "department": "Quality Assurance"
+    }
+  },
+  {
+    "doc_id": "report-img-006",
+    "doc_type": "report_image",
+    "modality": "image",
+    "source_path": "images/report-img-006.jpg",
+    "text": "June Field Operations Status Report\nAuthor: S. Patel\nDate: 2026-06-01\nThe Field Operations team processed 371 items in June 2026, a 5% decrease compared to the prior month.\n30 items remain open and are expected to close before the next review cycle.\nReport prepared by S. Patel for the June 2026 operations review.",
+    "fields": {
+      "title": "June Field Operations Status Report",
+      "author": "S. Patel",
+      "date": "2026-06-01",
+      "department": "Field Operations"
+    }
+  },
+  {
+    "doc_id": "report-img-007",
+    "doc_type": "report_image",
+    "modality": "image",
+    "source_path": "images/report-img-007.jpg",
+    "text": "March Fulfillment Status Report\nAuthor: S. Patel\nDate: 2026-03-01\nThe Fulfillment team processed 619 items in March 2026, a 9% decrease compared to the prior month.\n18 items remain open and are expected to close before the next review cycle.\nReport prepared by S. Patel for the March 2026 operations review.",
+    "fields": {
+      "title": "March Fulfillment Status Report",
+      "author": "S. Patel",
+      "date": "2026-03-01",
+      "department": "Fulfillment"
+    }
+  },
+  {
+    "doc_id": "report-img-008",
+    "doc_type": "report_image",
+    "modality": "image",
+    "source_path": "images/report-img-008.jpg",
+    "text": "December Warehouse Safety Status Report\nAuthor: J. Alvarez\nDate: 2025-12-01\nThe Warehouse Safety team processed 536 items in December 2025, a 18% increase compared to the prior month.\n32 items remain open and are expected to close before the next review cycle.\nReport prepared by J. Alvarez for the December 2025 operations review.",
+    "fields": {
+      "title": "December Warehouse Safety Status Report",
+      "author": "J. Alvarez",
+      "date": "2025-12-01",
+      "department": "Warehouse Safety"
+    }
+  },
+  {
+    "doc_id": "report-img-009",
+    "doc_type": "report_image",
+    "modality": "image",
+    "source_path": "images/report-img-009.jpg",
+    "text": "December Regional Sales Status Report\nAuthor: M. Chen\nDate: 2026-12-01\nThe Regional Sales team processed 369 items in December 2026, a 12% decrease compared to the prior month.\n32 items remain open and are expected to close before the next review cycle.\nReport prepared by M. Chen for the December 2026 operations review.",
+    "fields": {
+      "title": "December Regional Sales Status Report",
+      "author": "M. Chen",
+      "date": "2026-12-01",
+      "department": "Regional Sales"
+    }
+  },
+  {
+    "doc_id": "report-img-010",
+    "doc_type": "report_image",
+    "modality": "image",
+    "source_path": "images/report-img-010.jpg",
+    "text": "May Field Operations Status Report\nAuthor: R. Okafor\nDate: 2026-05-01\nThe Field Operations team processed 356 items in May 2026, a 6% increase compared to the prior month.\n22 items remain open and are expected to close before the next review cycle.\nReport prepared by R. Okafor for the May 2026 operations review.",
+    "fields": {
+      "title": "May Field Operations Status Report",
+      "author": "R. Okafor",
+      "date": "2026-05-01",
+      "department": "Field Operations"
+    }
+  },
+  {
+    "doc_id": "expense-001",
+    "doc_type": "expense_csv",
+    "modality": "csv",
+    "source_path": "tables/expense-001.csv",
+    "text": "Expense report for Regional Sales, 05/2026.\n2026-05-04 | Office Supplies | Office Supplies expense - Regional Sales | $262.37\n2026-05-12 | Office Supplies | Office Supplies expense - Regional Sales | $267.39\n2026-05-23 | Equipment | Equipment expense - Regional Sales | $120.70\n2026-05-02 | Travel | Travel expense - Regional Sales | $477.05\n2026-05-23 | Office Supplies | Office Supplies expense - Regional Sales | $547.62\n2026-05-25 | Meals | Meals expense - Regional Sales | $100.66",
+    "fields": {
+      "department": "Regional Sales",
+      "month": "2026-05",
+      "row_count": 6,
+      "total_amount": 1775.79,
+      "top_category": "Office Supplies",
+      "by_category": {
+        "Office Supplies": 1077.38,
+        "Equipment": 120.7,
+        "Travel": 477.05,
+        "Meals": 100.66
+      }
+    }
+  },
+  {
+    "doc_id": "expense-002",
+    "doc_type": "expense_csv",
+    "modality": "csv",
+    "source_path": "tables/expense-002.csv",
+    "text": "Expense report for Field Operations, 08/2026.\n2026-08-15 | Software | Software expense - Field Operations | $168.94\n2026-08-02 | Software | Software expense - Field Operations | $800.79\n2026-08-16 | Travel | Travel expense - Field Operations | $701.47\n2026-08-13 | Meals | Meals expense - Field Operations | $76.86\n2026-08-21 | Shipping | Shipping expense - Field Operations | $59.76",
+    "fields": {
+      "department": "Field Operations",
+      "month": "2026-08",
+      "row_count": 5,
+      "total_amount": 1807.82,
+      "top_category": "Software",
+      "by_category": {
+        "Software": 969.73,
+        "Travel": 701.47,
+        "Meals": 76.86,
+        "Shipping": 59.76
+      }
+    }
+  },
+  {
+    "doc_id": "expense-003",
+    "doc_type": "expense_csv",
+    "modality": "csv",
+    "source_path": "tables/expense-003.csv",
+    "text": "Expense report for Warehouse Safety, 02/2026.\n2026-02-04 | Equipment | Equipment expense - Warehouse Safety | $653.31\n2026-02-20 | Equipment | Equipment expense - Warehouse Safety | $675.27\n2026-02-08 | Equipment | Equipment expense - Warehouse Safety | $332.62\n2026-02-15 | Software | Software expense - Warehouse Safety | $733.24\n2026-02-14 | Software | Software expense - Warehouse Safety | $489.81\n2026-02-02 | Equipment | Equipment expense - Warehouse Safety | $816.69",
+    "fields": {
+      "department": "Warehouse Safety",
+      "month": "2026-02",
+      "row_count": 6,
+      "total_amount": 3700.94,
+      "top_category": "Equipment",
+      "by_category": {
+        "Equipment": 2477.89,
+        "Software": 1223.05
+      }
+    }
+  },
+  {
+    "doc_id": "expense-004",
+    "doc_type": "expense_csv",
+    "modality": "csv",
+    "source_path": "tables/expense-004.csv",
+    "text": "Expense report for Warehouse Safety, 11/2025.\n2025-11-09 | Shipping | Shipping expense - Warehouse Safety | $82.79\n2025-11-08 | Office Supplies | Office Supplies expense - Warehouse Safety | $475.91\n2025-11-06 | Travel | Travel expense - Warehouse Safety | $356.11\n2025-11-23 | Equipment | Equipment expense - Warehouse Safety | $407.38\n2025-11-02 | Office Supplies | Office Supplies expense - Warehouse Safety | $255.57",
+    "fields": {
+      "department": "Warehouse Safety",
+      "month": "2025-11",
+      "row_count": 5,
+      "total_amount": 1577.76,
+      "top_category": "Office Supplies",
+      "by_category": {
+        "Shipping": 82.79,
+        "Office Supplies": 731.48,
+        "Travel": 356.11,
+        "Equipment": 407.38
+      }
+    }
+  },
+  {
+    "doc_id": "expense-005",
+    "doc_type": "expense_csv",
+    "modality": "csv",
+    "source_path": "tables/expense-005.csv",
+    "text": "Expense report for Warehouse Safety, 02/2026.\n2026-02-09 | Shipping | Shipping expense - Warehouse Safety | $507.47\n2026-02-26 | Office Supplies | Office Supplies expense - Warehouse Safety | $369.99\n2026-02-18 | Office Supplies | Office Supplies expense - Warehouse Safety | $555.77\n2026-02-09 | Office Supplies | Office Supplies expense - Warehouse Safety | $74.63\n2026-02-06 | Software | Software expense - Warehouse Safety | $511.86\n2026-02-27 | Equipment | Equipment expense - Warehouse Safety | $784.20\n2026-02-15 | Travel | Travel expense - Warehouse Safety | $406.36",
+    "fields": {
+      "department": "Warehouse Safety",
+      "month": "2026-02",
+      "row_count": 7,
+      "total_amount": 3210.28,
+      "top_category": "Office Supplies",
+      "by_category": {
+        "Shipping": 507.47,
+        "Office Supplies": 1000.39,
+        "Software": 511.86,
+        "Equipment": 784.2,
+        "Travel": 406.36
+      }
+    }
+  },
+  {
+    "doc_id": "expense-006",
+    "doc_type": "expense_csv",
+    "modality": "csv",
+    "source_path": "tables/expense-006.csv",
+    "text": "Expense report for Field Operations, 05/2026.\n2026-05-15 | Travel | Travel expense - Field Operations | $514.36\n2026-05-14 | Shipping | Shipping expense - Field Operations | $284.14\n2026-05-09 | Travel | Travel expense - Field Operations | $91.26\n2026-05-22 | Equipment | Equipment expense - Field Operations | $505.25\n2026-05-01 | Shipping | Shipping expense - Field Operations | $700.89\n2026-05-19 | Travel | Travel expense - Field Operations | $652.20\n2026-05-06 | Meals | Meals expense - Field Operations | $448.33",
+    "fields": {
+      "department": "Field Operations",
+      "month": "2026-05",
+      "row_count": 7,
+      "total_amount": 3196.43,
+      "top_category": "Travel",
+      "by_category": {
+        "Travel": 1257.82,
+        "Shipping": 985.03,
+        "Equipment": 505.25,
+        "Meals": 448.33
+      }
+    }
+  },
+  {
+    "doc_id": "text-report-001",
+    "doc_type": "text_report",
+    "modality": "text",
+    "source_path": "reports_txt/text-report-001.txt",
+    "text": "October Field Operations Status Report\nAuthor: R. Okafor\nDate: 2025-10-01\n\nThe Field Operations team processed 566 items in October 2025, a 23% decrease compared to the prior month.\n7 items remain open and are expected to close before the next review cycle.\nReport prepared by R. Okafor for the October 2025 operations review.",
+    "fields": {
+      "title": "October Field Operations Status Report",
+      "author": "R. Okafor",
+      "date": "2025-10-01",
+      "department": "Field Operations"
+    }
+  },
+  {
+    "doc_id": "text-report-002",
+    "doc_type": "text_report",
+    "modality": "text",
+    "source_path": "reports_txt/text-report-002.txt",
+    "text": "June Field Operations Status Report\nAuthor: R. Okafor\nDate: 2026-06-01\n\nThe Field Operations team processed 448 items in June 2026, a 24% increase compared to the prior month.\n12 items remain open and are expected to close before the next review cycle.\nReport prepared by R. Okafor for the June 2026 operations review.",
+    "fields": {
+      "title": "June Field Operations Status Report",
+      "author": "R. Okafor",
+      "date": "2026-06-01",
+      "department": "Field Operations"
+    }
+  },
+  {
+    "doc_id": "text-report-003",
+    "doc_type": "text_report",
+    "modality": "text",
+    "source_path": "reports_txt/text-report-003.txt",
+    "text": "May Vendor Onboarding Status Report\nAuthor: S. Patel\nDate: 2026-05-01\n\nThe Vendor Onboarding team processed 798 items in May 2026, a 15% increase compared to the prior month.\n31 items remain open and are expected to close before the next review cycle.\nReport prepared by S. Patel for the May 2026 operations review.",
+    "fields": {
+      "title": "May Vendor Onboarding Status Report",
+      "author": "S. Patel",
+      "date": "2026-05-01",
+      "department": "Vendor Onboarding"
+    }
+  },
+  {
+    "doc_id": "text-report-004",
+    "doc_type": "text_report",
+    "modality": "text",
+    "source_path": "reports_txt/text-report-004.txt",
+    "text": "June Customer Support Status Report\nAuthor: R. Okafor\nDate: 2026-06-01\n\nThe Customer Support team processed 238 items in June 2026, a 27% decrease compared to the prior month.\n34 items remain open and are expected to close before the next review cycle.\nReport prepared by R. Okafor for the June 2026 operations review.",
+    "fields": {
+      "title": "June Customer Support Status Report",
+      "author": "R. Okafor",
+      "date": "2026-06-01",
+      "department": "Customer Support"
+    }
+  },
+  {
+    "doc_id": "text-report-005",
+    "doc_type": "text_report",
+    "modality": "text",
+    "source_path": "reports_txt/text-report-005.txt",
+    "text": "July Fulfillment Status Report\nAuthor: K. Brennan\nDate: 2026-07-01\n\nThe Fulfillment team processed 175 items in July 2026, a 9% decrease compared to the prior month.\n33 items remain open and are expected to close before the next review cycle.\nReport prepared by K. Brennan for the July 2026 operations review.",
+    "fields": {
+      "title": "July Fulfillment Status Report",
+      "author": "K. Brennan",
+      "date": "2026-07-01",
+      "department": "Fulfillment"
+    }
+  },
+  {
+    "doc_id": "text-report-006",
+    "doc_type": "text_report",
+    "modality": "text",
+    "source_path": "reports_txt/text-report-006.txt",
+    "text": "May Field Operations Status Report\nAuthor: J. Alvarez\nDate: 2025-05-01\n\nThe Field Operations team processed 682 items in May 2025, a 7% decrease compared to the prior month.\n30 items remain open and are expected to close before the next review cycle.\nReport prepared by J. Alvarez for the May 2025 operations review.",
+    "fields": {
+      "title": "May Field Operations Status Report",
+      "author": "J. Alvarez",
+      "date": "2025-05-01",
+      "department": "Field Operations"
+    }
+  }
+]

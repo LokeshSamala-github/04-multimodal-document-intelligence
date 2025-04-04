@@ -1,0 +1,94 @@
+[
+  {
+    "query": "What did R. Okafor report about the Customer Support team?",
+    "expected_doc_id": "text-report-004"
+  },
+  {
+    "query": "What is the total amount on invoice INV-37460 from Harbor Point Freight?",
+    "expected_doc_id": "invoice-004"
+  },
+  {
+    "query": "Show me the Fulfillment status report written by S. Patel.",
+    "expected_doc_id": "report-img-007"
+  },
+  {
+    "query": "What is the total amount on invoice INV-93130 from Cascade Industrial?",
+    "expected_doc_id": "invoice-016"
+  },
+  {
+    "query": "What was the total Field Operations expense spend for 2026-05?",
+    "expected_doc_id": "expense-006"
+  },
+  {
+    "query": "Show me the Regional Sales status report written by M. Chen.",
+    "expected_doc_id": "report-img-009"
+  },
+  {
+    "query": "Find the Corner Market receipt paid by Credit Card on 2026-09-05.",
+    "expected_doc_id": "receipt-001"
+  },
+  {
+    "query": "What was the total Warehouse Safety expense spend for 2025-11?",
+    "expected_doc_id": "expense-004"
+  },
+  {
+    "query": "What was the total Warehouse Safety expense spend for 2026-02?",
+    "expected_doc_id": "expense-003"
+  },
+  {
+    "query": "What is the total amount on invoice INV-87236 from Fairview Consulting Group?",
+    "expected_doc_id": "invoice-002"
+  },
+  {
+    "query": "What is the total amount on invoice INV-13278 from Acme Logistics?",
+    "expected_doc_id": "invoice-001"
+  },
+  {
+    "query": "What did S. Patel report about the Vendor Onboarding team?",
+    "expected_doc_id": "text-report-003"
+  },
+  {
+    "query": "Find the Urban Cafe & Bakery receipt paid by Debit Card on 2026-04-05.",
+    "expected_doc_id": "receipt-009"
+  },
+  {
+    "query": "What is the total amount on invoice INV-34050 from Meridian Hardware?",
+    "expected_doc_id": "invoice-011"
+  },
+  {
+    "query": "Find the Sunrise Diner receipt paid by Cash on 2026-07-02.",
+    "expected_doc_id": "receipt-012"
+  },
+  {
+    "query": "What is the total amount on invoice INV-27342 from Redstone Manufacturing?",
+    "expected_doc_id": "invoice-010"
+  },
+  {
+    "query": "Show me the Warehouse Safety status report written by J. Alvarez.",
+    "expected_doc_id": "report-img-008"
+  },
+  {
+    "query": "Find the QuickStop Pharmacy receipt paid by Cash on 2025-07-28.",
+    "expected_doc_id": "receipt-003"
+  },
+  {
+    "query": "What did R. Okafor report about the Field Operations team?",
+    "expected_doc_id": "text-report-002"
+  },
+  {
+    "query": "What was the total Regional Sales expense spend for 2026-05?",
+    "expected_doc_id": "expense-001"
+  },
+  {
+    "query": "Show me the IT Infrastructure status report written by S. Patel.",
+    "expected_doc_id": "report-img-002"
+  },
+  {
+    "query": "Find the Green Leaf Grocers receipt paid by Credit Card on 2026-01-23.",
+    "expected_doc_id": "receipt-005"
+  },
+  {
+    "query": "What did K. Brennan report about the Fulfillment team?",
+    "expected_doc_id": "text-report-005"
+  }
+]
