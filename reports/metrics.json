@@ -1,0 +1,205 @@
+{
+  "evaluated_at_unix": 1790376074,
+  "corpus": {
+    "n_documents": 52,
+    "n_chunks": 52,
+    "by_doc_type": {
+      "expense_csv": 6,
+      "invoice": 16,
+      "receipt": 14,
+      "report_image": 10,
+      "text_report": 6
+    },
+    "build_seconds": 46.479
+  },
+  "ocr": {
+    "backend": "tesseract",
+    "n_documents": 40,
+    "overall_word_accuracy": 0.973,
+    "by_doc_type": {
+      "invoice": 0.979,
+      "receipt": 0.9685,
+      "report_image": 0.9698
+    }
+  },
+  "extraction": {
+    "overall_precision": 0.9697,
+    "n_field_checks": 198,
+    "by_doc_type": {
+      "expense_csv": 1.0,
+      "invoice": 0.9531,
+      "receipt": 0.9464,
+      "report_image": 1.0,
+      "text_report": 1.0
+    },
+    "by_field": {
+      "expense_csv.department": 1.0,
+      "expense_csv.month": 1.0,
+      "expense_csv.row_count": 1.0,
+      "expense_csv.top_category": 1.0,
+      "expense_csv.total_amount": 1.0,
+      "invoice.date": 1.0,
+      "invoice.invoice_number": 1.0,
+      "invoice.total": 0.8125,
+      "invoice.vendor": 1.0,
+      "receipt.date": 1.0,
+      "receipt.payment_method": 0.9286,
+      "receipt.store": 1.0,
+      "receipt.total": 0.8571,
+      "report_image.author": 1.0,
+      "report_image.date": 1.0,
+      "report_image.title": 1.0,
+      "text_report.author": 1.0,
+      "text_report.date": 1.0,
+      "text_report.title": 1.0
+    }
+  },
+  "retrieval": {
+    "n_queries": 23,
+    "embedding_backend": "tfidf",
+    "recall_at_1": 0.9565,
+    "recall_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "mrr": 0.9783,
+    "per_query": [
+      {
+        "query": "What did R. Okafor report about the Customer Support team?",
+        "expected_doc_id": "text-report-004",
+        "rank": 1,
+        "top1_doc_id": "text-report-004"
+      },
+      {
+        "query": "What is the total amount on invoice INV-37460 from Harbor Point Freight?",
+        "expected_doc_id": "invoice-004",
+        "rank": 1,
+        "top1_doc_id": "invoice-004"
+      },
+      {
+        "query": "Show me the Fulfillment status report written by S. Patel.",
+        "expected_doc_id": "report-img-007",
+        "rank": 1,
+        "top1_doc_id": "report-img-007"
+      },
+      {
+        "query": "What is the total amount on invoice INV-93130 from Cascade Industrial?",
+        "expected_doc_id": "invoice-016",
+        "rank": 1,
+        "top1_doc_id": "invoice-016"
+      },
+      {
+        "query": "What was the total Field Operations expense spend for 2026-05?",
+        "expected_doc_id": "expense-006",
+        "rank": 1,
+        "top1_doc_id": "expense-006"
+      },
+      {
+        "query": "Show me the Regional Sales status report written by M. Chen.",
+        "expected_doc_id": "report-img-009",
+        "rank": 1,
+        "top1_doc_id": "report-img-009"
+      },
+      {
+        "query": "Find the Corner Market receipt paid by Credit Card on 2026-09-05.",
+        "expected_doc_id": "receipt-001",
+        "rank": 1,
+        "top1_doc_id": "receipt-001"
+      },
+      {
+        "query": "What was the total Warehouse Safety expense spend for 2025-11?",
+        "expected_doc_id": "expense-004",
+        "rank": 1,
+        "top1_doc_id": "expense-004"
+      },
+      {
+        "query": "What was the total Warehouse Safety expense spend for 2026-02?",
+        "expected_doc_id": "expense-003",
+        "rank": 1,
+        "top1_doc_id": "expense-003"
+      },
+      {
+        "query": "What is the total amount on invoice INV-87236 from Fairview Consulting Group?",
+        "expected_doc_id": "invoice-002",
+        "rank": 1,
+        "top1_doc_id": "invoice-002"
+      },
+      {
+        "query": "What is the total amount on invoice INV-13278 from Acme Logistics?",
+        "expected_doc_id": "invoice-001",
+        "rank": 1,
+        "top1_doc_id": "invoice-001"
+      },
+      {
+        "query": "What did S. Patel report about the Vendor Onboarding team?",
+        "expected_doc_id": "text-report-003",
+        "rank": 1,
+        "top1_doc_id": "text-report-003"
+      },
+      {
+        "query": "Find the Urban Cafe & Bakery receipt paid by Debit Card on 2026-04-05.",
+        "expected_doc_id": "receipt-009",
+        "rank": 1,
+        "top1_doc_id": "receipt-009"
+      },
+      {
+        "query": "What is the total amount on invoice INV-34050 from Meridian Hardware?",
+        "expected_doc_id": "invoice-011",
+        "rank": 1,
+        "top1_doc_id": "invoice-011"
+      },
+      {
+        "query": "Find the Sunrise Diner receipt paid by Cash on 2026-07-02.",
+        "expected_doc_id": "receipt-012",
+        "rank": 1,
+        "top1_doc_id": "receipt-012"
+      },
+      {
+        "query": "What is the total amount on invoice INV-27342 from Redstone Manufacturing?",
+        "expected_doc_id": "invoice-010",
+        "rank": 1,
+        "top1_doc_id": "invoice-010"
+      },
+      {
+        "query": "Show me the Warehouse Safety status report written by J. Alvarez.",
+        "expected_doc_id": "report-img-008",
+        "rank": 1,
+        "top1_doc_id": "report-img-008"
+      },
+      {
+        "query": "Find the QuickStop Pharmacy receipt paid by Cash on 2025-07-28.",
+        "expected_doc_id": "receipt-003",
+        "rank": 1,
+        "top1_doc_id": "receipt-003"
+      },
+      {
+        "query": "What did R. Okafor report about the Field Operations team?",
+        "expected_doc_id": "text-report-002",
+        "rank": 2,
+        "top1_doc_id": "report-img-010"
+      },
+      {
+        "query": "What was the total Regional Sales expense spend for 2026-05?",
+        "expected_doc_id": "expense-001",
+        "rank": 1,
+        "top1_doc_id": "expense-001"
+      },
+      {
+        "query": "Show me the IT Infrastructure status report written by S. Patel.",
+        "expected_doc_id": "report-img-002",
+        "rank": 1,
+        "top1_doc_id": "report-img-002"
+      },
+      {
+        "query": "Find the Green Leaf Grocers receipt paid by Credit Card on 2026-01-23.",
+        "expected_doc_id": "receipt-005",
+        "rank": 1,
+        "top1_doc_id": "receipt-005"
+      },
+      {
+        "query": "What did K. Brennan report about the Fulfillment team?",
+        "expected_doc_id": "text-report-005",
+        "rank": 1,
+        "top1_doc_id": "text-report-005"
+      }
+    ]
+  }
+}
