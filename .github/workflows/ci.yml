@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install Tesseract OCR
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends tesseract-ocr
+
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Lint
+        run: ruff check .
+
+      - name: Test
+        run: pytest -v --cov=doc_intelligence --cov-report=term-missing
+
+      - name: End-to-end smoke run (proves the CLI pipeline works, not just the test suite)
+        run: |
+          python data/generate_documents.py --n-invoices 4 --n-receipts 4 --n-report-images 3 \
+            --n-expense-csvs 2 --n-text-reports 2 --out /tmp/docint-smoke
+          DOCINT_RAW_DIR=/tmp/docint-smoke \
+          DOCINT_GROUND_TRUTH_FILE=/tmp/docint-smoke/ground_truth.json \
+          DOCINT_EVAL_QUERIES_FILE=/tmp/docint-smoke/eval_queries.json \
+          DOCINT_OCR_CACHE_FILE=/tmp/docint-smoke/ocr_cache.json \
+          DOCINT_METRICS_FILE=/tmp/docint-smoke/metrics.json \
+          PYTHONPATH=src python -m doc_intelligence.evaluate --embedding-backend tfidf
